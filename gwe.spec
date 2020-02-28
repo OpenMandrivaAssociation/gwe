@@ -3,11 +3,11 @@
 Name:           gwe
 Version:        0.14.0
 Release:        1
-Summary:        System utility designed to provide information of NVIDIA card
+Summary:        GreenWithEnvy ia a system utility designed to provide information of NVIDIA card.
 License:        GPLv3+
 URL:            https://gitlab.com/leinardi/gwe
 Source0:        https://gitlab.com/leinardi/gwe/-/archive/%{version}/%{name}-%{version}.tar.bz2
-BuildArch:      noarch
+BuildArch:      noarcha
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(appstream-glib)
@@ -30,11 +30,13 @@ Requires:       python3dist(python-xlib)
 Requires:       typelib(Dazzle)
 Requires:       typelib(AppIndicator3)
 
+Provides:       greenwithenvy
+
 # Only on Gnome-shell, still not ready for Cooker. Import pending (angry).
 Recommends:     (gnome-shell-extension-appindicator if gnome-shell)
 
 %description
-GWE is a GTK system utility designed to provide information, control the fans
+GWE (GreenWithEnvy) is a GTK system utility designed to provide information, control the fans
 and overclock your NVIDIA video card and graphics processor.
 
 This packages requires NVIDIA proprietary drivers installed in system.
