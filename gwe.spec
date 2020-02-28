@@ -54,7 +54,7 @@ This package require NVIDIA driver. Please read included README.Fedora file:
 
 %files
 %license COPYING.txt
-%doc CHANGELOG.md README.md README.fedora.md RELEASING.md
+%doc CHANGELOG.md README.md RELEASING.md
 %{_bindir}/%{name}
 %{_datadir}/%{name}/
 %{_datadir}/applications/*.desktop
