@@ -7,7 +7,7 @@ Summary:        GreenWithEnvy ia a system utility designed to provide informatio
 License:        GPLv3+
 URL:            https://gitlab.com/leinardi/gwe
 Source0:        https://gitlab.com/leinardi/gwe/-/archive/%{version}/%{name}-%{version}.tar.bz2
-BuildArch:      noarcha
+BuildArch:      noarch
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(appstream-glib)
