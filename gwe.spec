@@ -37,10 +37,7 @@ Recommends:     (gnome-shell-extension-appindicator if gnome-shell)
 GWE is a GTK system utility designed to provide information, control the fans
 and overclock your NVIDIA video card and graphics processor.
 
-This package require NVIDIA driver. Please read included README.Fedora file:
-
-  xdg-open %{_docdir}/%{name}/README.fedora.md
-
+This packages requires NVIDIA proprietary drivers installed in system.
 
 %prep
 %autosetup -p1
