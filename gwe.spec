@@ -27,6 +27,8 @@ Requires:       python3egg(pyxdg)
 Requires:       python3egg(requests)
 Requires:       python3dist(rx)
 Requires:       python3dist(python-xlib)
+Requires:       typelib(Dazzle)
+Requires:       typelib(AppIndicator3)
 
 # Only on Gnome-shell, still not ready for Cooker. Import pending (angry).
 Recommends:     (gnome-shell-extension-appindicator if gnome-shell)
