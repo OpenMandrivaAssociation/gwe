@@ -6,7 +6,7 @@ Release:        1
 Summary:        System utility designed to provide information of NVIDIA card
 License:        GPLv3+
 URL:            https://gitlab.com/leinardi/gwe
-Source0:        https://gitlab.com/leinardi/gwe/-/archive/%{version}/%{name}-%{verson}.tar.bz2
+Source0:        https://gitlab.com/leinardi/gwe/-/archive/%{version}/%{name}-%{version}.tar.bz2
 BuildArch:      noarch
 
 BuildRequires:  desktop-file-utils
