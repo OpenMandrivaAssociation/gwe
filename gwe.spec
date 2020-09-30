@@ -23,8 +23,8 @@ Requires:       python-matplotlib-gtk
 Requires:       python3dist(peewee)
 #Not available in Cooker yet
 #Requires:       python3-py3nvml >= 0.2.5
-Requires:       python3egg(pyxdg)
-Requires:       python3egg(requests)
+Requires:       python3dist(pyxdg)
+Requires:       python3dist(requests)
 Requires:       python3dist(rx)
 Requires:       python3dist(python-xlib)
 Requires:       typelib(Dazzle)
