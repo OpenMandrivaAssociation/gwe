@@ -1,7 +1,7 @@
 %global uuid    com.leinardi.%{name}
 
 Name:           gwe
-Version:        0.15.1
+Version:        0.15.2
 Release:        1
 Summary:        GreenWithEnvy ia a system utility designed to provide information of NVIDIA card.
 License:        GPLv3+
@@ -44,11 +44,9 @@ This packages requires NVIDIA proprietary drivers installed in system.
 %prep
 %autosetup -p1
 
-
 %build
 %meson
 %meson_build
-
 
 %install
 %meson_install
