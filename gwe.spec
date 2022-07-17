@@ -1,8 +1,8 @@
 %global uuid    com.leinardi.%{name}
 
 Name:           gwe
-Version:        0.15.4
-Release:        2
+Version:        0.15.5
+Release:        1
 Summary:        GreenWithEnvy ia a system utility designed to provide information of NVIDIA card.
 License:        GPLv3+
 URL:            https://gitlab.com/leinardi/gwe
@@ -21,8 +21,7 @@ Requires:       python3dist(pygobject)
 Requires:       python3dist(injector)
 Requires:       python-matplotlib-gtk
 Requires:       python3dist(peewee)
-#Not available in Cooker yet
-#Requires:       python3-py3nvml >= 0.2.5
+Requires:       python3dist(py3nvml)
 Requires:       python3dist(pyxdg)
 Requires:       python3dist(requests)
 Requires:       python3dist(rx)
