@@ -1,8 +1,11 @@
 %global uuid    com.leinardi.%{name}
 
+# don't require because it uses Ayatana Appindicator
+%global __requires_exclude  ^typelib\\(AppIndicator3\\).*$
+
 Name:           gwe
 Version:        0.15.7
-Release:        1
+Release:        2
 Summary:        GreenWithEnvy ia a system utility designed to provide information of NVIDIA card.
 License:        GPLv3+
 URL:            https://gitlab.com/leinardi/gwe
@@ -15,19 +18,18 @@ BuildRequires:  meson
 BuildRequires:  pkgconfig(python)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
+
 Requires:       dbus
 Requires:       hicolor-icon-theme
-Requires:       python3dist(pygobject)
-Requires:       python3dist(injector)
 Requires:       python-matplotlib-gtk
-Requires:       python3dist(peewee)
-Requires:       python3dist(py3nvml)
-Requires:       python3dist(pyxdg)
-Requires:       python3dist(requests)
-Requires:       python3dist(rx)
-Requires:       python3dist(python-xlib)
-Requires:       typelib(Dazzle)
-Requires:       typelib(AppIndicator3)
+Requires:       python%{pyver}dist(pygobject)
+Requires:       python%{pyver}dist(injector)
+Requires:       python%{pyver}dist(peewee)
+Requires:       python%{pyver}dist(py3nvml)
+Requires:       python%{pyver}dist(pyxdg)
+Requires:       python%{pyver}dist(requests)
+Requires:       python%{pyver}dist(rx)
+Requires:       python%{pyver}dist(python-xlib)
 
 Provides:       greenwithenvy
 
