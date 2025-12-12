@@ -5,7 +5,7 @@
 
 Name:           gwe
 Version:        0.15.9
-Release:        1
+Release:        2
 Summary:        GreenWithEnvy ia a system utility designed to provide information of NVIDIA card.
 License:        GPLv3+
 URL:            https://gitlab.com/leinardi/gwe
